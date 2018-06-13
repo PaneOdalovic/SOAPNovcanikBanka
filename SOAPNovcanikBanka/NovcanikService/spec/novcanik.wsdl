@@ -2,38 +2,89 @@
 <wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.example.org/novcanik/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="novcanik" targetNamespace="http://www.example.org/novcanik/">
   <wsdl:types>
     <xsd:schema targetNamespace="http://www.example.org/novcanik/">
-      <xsd:element name="NewOperation">
+      <xsd:element name="stanje">
         <xsd:complexType>
           <xsd:sequence>
             <xsd:element name="in" type="xsd:string"/>
           </xsd:sequence>
         </xsd:complexType>
       </xsd:element>
-      <xsd:element name="NewOperationResponse">
+      <xsd:element name="stanjeResponse">
         <xsd:complexType>
           <xsd:sequence>
             <xsd:element name="out" type="xsd:string"/>
           </xsd:sequence>
         </xsd:complexType>
       </xsd:element>
+      <xsd:element name="skiniSaNovcanika">
+      	<xsd:complexType>
+      		<xsd:sequence>
+
+      			<xsd:element name="in" type="xsd:string"></xsd:element>
+      		</xsd:sequence>
+      	</xsd:complexType>
+      </xsd:element>
+      <xsd:element name="skiniSaNovcanikaResponse">
+      	<xsd:complexType>
+      		<xsd:sequence>
+
+      			<xsd:element name="out" type="xsd:string"></xsd:element>
+      		</xsd:sequence>
+      	</xsd:complexType>
+      </xsd:element>
+      <xsd:element name="dodajNaNavcanik">
+      	<xsd:complexType>
+      		<xsd:sequence>
+
+      			<xsd:element name="in" type="xsd:string"></xsd:element>
+      		</xsd:sequence>
+      	</xsd:complexType>
+      </xsd:element>
+      <xsd:element name="dodajNaNavcanikResponse">
+      	<xsd:complexType>
+      		<xsd:sequence>
+
+      			<xsd:element name="out" type="xsd:string"></xsd:element>
+      		</xsd:sequence>
+      	</xsd:complexType>
+      </xsd:element>
     </xsd:schema>
   </wsdl:types>
-  <wsdl:message name="NewOperationRequest">
-    <wsdl:part element="tns:NewOperation" name="parameters"/>
+  <wsdl:message name="stanjeRequest">
   </wsdl:message>
-  <wsdl:message name="NewOperationResponse">
-    <wsdl:part element="tns:NewOperationResponse" name="parameters"/>
+  <wsdl:message name="stanjeResponse">
+    <wsdl:part name="out" type="xsd:double"/>
+  </wsdl:message>
+  <wsdl:message name="skiniSaNovcanikaRequest">
+  	<wsdl:part name="in" type="xsd:double"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="skiniSaNovcanikaResponse">
+  	<wsdl:part name="out" type="xsd:boolean"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="dodajNaNavcanikRequest">
+  	<wsdl:part name="in" type="xsd:double"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="dodajNaNavcanikResponse">
+  	<wsdl:part name="out" type="xsd:boolean"></wsdl:part>
   </wsdl:message>
   <wsdl:portType name="novcanik">
-    <wsdl:operation name="NewOperation">
-      <wsdl:input message="tns:NewOperationRequest"/>
-      <wsdl:output message="tns:NewOperationResponse"/>
+    <wsdl:operation name="stanje">
+      <wsdl:input message="tns:stanjeRequest"/>
+      <wsdl:output message="tns:stanjeResponse"/>
+    </wsdl:operation>
+    <wsdl:operation name="skiniSaNovcanika">
+    	<wsdl:input message="tns:skiniSaNovcanikaRequest"></wsdl:input>
+    	<wsdl:output message="tns:skiniSaNovcanikaResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dodajNaNavcanik">
+    	<wsdl:input message="tns:dodajNaNavcanikRequest"></wsdl:input>
+    	<wsdl:output message="tns:dodajNaNavcanikResponse"></wsdl:output>
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="novcanikSOAP" type="tns:novcanik">
     <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
-    <wsdl:operation name="NewOperation">
-      <soap:operation soapAction="http://www.example.org/novcanik/NewOperation"/>
+    <wsdl:operation name="stanje">
+      <soap:operation soapAction="http://www.example.org/novcanik/stanje"/>
       <wsdl:input>
         <soap:body use="literal"/>
       </wsdl:input>
@@ -44,7 +95,7 @@
   </wsdl:binding>
   <wsdl:service name="novcanik">
     <wsdl:port binding="tns:novcanikSOAP" name="novcanikSOAP">
-      <soap:address location="http://www.example.org/"/>
+      <soap:address location="http://localhost:8080/novcanikPortType"/>
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

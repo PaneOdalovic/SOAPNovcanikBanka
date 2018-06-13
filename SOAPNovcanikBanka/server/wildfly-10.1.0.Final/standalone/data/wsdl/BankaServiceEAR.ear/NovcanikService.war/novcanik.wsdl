@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://www.example.org/novcanik/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="novcanik" targetNamespace="http://www.example.org/novcanik/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.example.org/novcanik/" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://www.example.org/novcanik/">
+  <xs:element name="dodajNaNavcanik">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="in" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dodajNaNavcanikResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="out" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="skiniSaNovcanika">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="in" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="skiniSaNovcanikaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="out" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="stanje">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="in" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="stanjeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="out" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="out" nillable="true" type="xs:double"/>
+  <xs:element name="in" nillable="true" type="xs:boolean"/>
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="dodajNaNavcanikResponse">
+    <wsdl:part element="tns:out" name="out">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="skiniSaNovcanikaResponse">
+    <wsdl:part element="tns:out" name="out">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="stanjeResponse">
+    <wsdl:part element="tns:out" name="out">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="stanje">
+  </wsdl:message>
+  <wsdl:message name="dodajNaNavcanik">
+    <wsdl:part element="tns:in" name="in">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="skiniSaNovcanika">
+    <wsdl:part element="tns:in" name="in">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="novcanik">
+    <wsdl:operation name="stanje">
+      <wsdl:input message="tns:stanje" name="stanje">
+    </wsdl:input>
+      <wsdl:output message="tns:stanjeResponse" name="stanjeResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dodajNaNavcanik">
+      <wsdl:input message="tns:dodajNaNavcanik" name="dodajNaNavcanik">
+    </wsdl:input>
+      <wsdl:output message="tns:dodajNaNavcanikResponse" name="dodajNaNavcanikResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="skiniSaNovcanika">
+      <wsdl:input message="tns:skiniSaNovcanika" name="skiniSaNovcanika">
+    </wsdl:input>
+      <wsdl:output message="tns:skiniSaNovcanikaResponse" name="skiniSaNovcanikaResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="novcanikSoapBinding" type="tns:novcanik">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="stanje">
+      <soap:operation soapAction="http://www.example.org/novcanik/stanje" style="document"/>
+      <wsdl:input name="stanje">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="stanjeResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dodajNaNavcanik">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="dodajNaNavcanik">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="dodajNaNavcanikResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="skiniSaNovcanika">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="skiniSaNovcanika">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="skiniSaNovcanikaResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="novcanik">
+    <wsdl:port binding="tns:novcanikSoapBinding" name="NovcanikImplPort">
+      <soap:address location="http://localhost:8080/NovcanikService/Novcanik"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
