@@ -148,3 +148,4 @@
 2018-06-13 20:30:28,169 INFO  [org.jboss.as.webservices] (MSC service thread 1-4) WFLYWS0003: Starting service jboss.ws.endpoint."BankaServiceEAR.ear"."BankaService.war".Banka
 2018-06-13 20:30:28,200 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0021: Registered web context: /NovcanikService
 2018-06-13 20:30:28,216 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0021: Registered web context: /BankaService
+2018-06-13 20:30:28,379 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "BankaServiceEAR.ear" with deployment "BankaServiceEAR.ear"
