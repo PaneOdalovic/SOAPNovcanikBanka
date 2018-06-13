@@ -1,0 +1,764 @@
+2018-06-10 14:44:13,633 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-06-10 14:44:14,733 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-06-10 14:44:14,876 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-06-10 14:44:14,878 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\jboss-modules.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_161\jre
+	java.io.tmpdir = C:\Users\Pane\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jdk1.8.0_161/jre/bin/server;C:/Program Files/Java/jdk1.8.0_161/jre/bin;C:/Program Files/Java/jdk1.8.0_161/jre/lib/amd64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\PuTTY\;C:\Users\Pane\AppData\Local\Microsoft\WindowsApps;;C:\Users\Pane\eclipse\eclipse\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_161-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_161
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.161-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final
+	jboss.host.name = desktop-373aqms
+	jboss.modules.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-373aqms
+	jboss.qualified.host.name = desktop-373aqms
+	jboss.server.base.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone
+	jboss.server.config.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\configuration
+	jboss.server.data.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\data
+	jboss.server.deploy.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\data\content
+	jboss.server.log.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\log
+	jboss.server.name = desktop-373aqms
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\configuration\logging.properties
+	module.path = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\modules
+	org.jboss.boot.log.file = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 10.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_161\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone-full.xml -Djboss.server.base.dir=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\bin
+	user.home = C:\Users\Pane
+	user.language = en
+	user.name = Pane
+	user.script = 
+	user.timezone = Europe/Prague
+	user.variant = 
+2018-06-10 14:44:14,879 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\log\boot.log -Dlogging.configuration=file:D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2018-06-10 14:44:20,864 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found 03RasporedEAR.ear in deployment directory. To trigger deployment create a file called 03RasporedEAR.ear.dodeploy
+2018-06-10 14:44:20,979 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-06-10 14:44:21,118 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.4.0.Final
+2018-06-10 14:44:21,129 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.4.0.Final
+2018-06-10 14:44:21,214 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 60) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-06-10 14:44:21,243 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 59) WFLYSEC0002: Activating Security Subsystem
+2018-06-10 14:44:21,252 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-06-10 14:44:21,279 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-06-10 14:44:21,278 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-06-10 14:44:21,427 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-06-10 14:44:21,431 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 42) WFLYIIOP0001: Activating IIOP Subsystem
+2018-06-10 14:44:21,455 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 62) WFLYWS0002: Activating WebServices Extension
+2018-06-10 14:44:21,456 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2018-06-10 14:44:21,577 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-06-10 14:44:22,266 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-06-10 14:44:23,160 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0014: Creating file handler for path 'D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-06-10 14:44:23,265 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-06-10 14:44:23,267 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-06-10 14:44:23,732 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-06-10 14:44:23,731 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2018-06-10 14:44:24,103 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-06-10 14:44:24,106 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-06-10 14:44:25,077 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2018-06-10 14:44:25,099 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.21.Final
+2018-06-10 14:44:25,167 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2018-06-10 14:44:25,616 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-5) WFLYDM0111: Keystore D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-06-10 14:44:25,697 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\deployments
+2018-06-10 14:44:25,713 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "03RasporedEAR.ear" (runtime-name: "03RasporedEAR.ear")
+2018-06-10 14:44:25,856 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-06-10 14:44:26,940 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0207: Starting subdeployment (runtime-name: "03RasporedSOAP.war")
+2018-06-10 14:44:27,073 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-4) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-06-10 14:44:27,135 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-8) WFLYIIOP0009: CORBA ORB Service started
+2018-06-10 14:44:27,169 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2018-06-10 14:44:27,998 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-10 14:44:28,004 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 71) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-10 14:44:28,006 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 71) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-10 14:44:28,011 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-10 14:44:28,030 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-10 14:44:28,032 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-10 14:44:28,581 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 73) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\data\activemq\journal,bindingsDirectory=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\data\activemq\bindings,largeMessagesDirectory=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\data\activemq\largemessages,pagingDirectory=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\data\activemq\paging)
+2018-06-10 14:44:28,723 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-06-10 14:44:28,860 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 73) AMQ221013: Using NIO Journal
+2018-06-10 14:44:30,077 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 73) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2018-06-10 14:44:30,254 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 73) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2018-06-10 14:44:30,327 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 73) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2018-06-10 14:44:30,329 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 73) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2018-06-10 14:44:31,335 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-06-10 14:44:32,054 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2018-06-10 14:44:32,057 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2018-06-10 14:44:32,054 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2018-06-10 14:44:32,055 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2018-06-10 14:44:32,304 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 73) AMQ221007: Server is now live
+2018-06-10 14:44:32,305 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 73) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.wildfly-017 [nodeID=c18bde1f-6be2-11e8-a6b8-cb46bb04a59b] 
+2018-06-10 14:44:32,362 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-06-10 14:44:32,377 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 73) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2018-06-10 14:44:32,427 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 65) AMQ221003: trying to deploy queue jms.queue.DLQ
+2018-06-10 14:44:32,444 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2018-06-10 14:44:32,449 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 66) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2018-06-10 14:44:32,593 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) WFLYJCA0007: Registered connection factory java:/JmsXA
+2018-06-10 14:44:32,807 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-8) Resource adaptor started
+2018-06-10 14:44:32,808 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-8) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2018-06-10 14:44:32,811 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2018-06-10 14:44:32,811 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2018-06-10 14:44:33,622 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component service.impl.RasporedPortTypeImpl due to an exception (enable DEBUG log level to see the cause)
+2018-06-10 14:44:34,154 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-4) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP.UndertowDeploymentInfoService: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: service.impl.RasporedPortTypeImpl from [Module "deployment.03RasporedEAR.ear.03RasporedSOAP.war:main" from Service Module Loader]
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService.createServletConfig(UndertowDeploymentInfoService.java:1079)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService.start(UndertowDeploymentInfoService.java:284)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: service.impl.RasporedPortTypeImpl from [Module "deployment.03RasporedEAR.ear.03RasporedSOAP.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:198)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService.createServletConfig(UndertowDeploymentInfoService.java:723)
+	... 6 more
+
+2018-06-10 14:44:34,160 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "03RasporedEAR.ear")]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.undertow.deployment.default-server.default-host./03RasporedSOAP.UndertowDeploymentInfoService" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: service.impl.RasporedPortTypeImpl from [Module \"deployment.03RasporedEAR.ear.03RasporedSOAP.war:main\" from Service Module Loader]
+    Caused by: java.lang.ClassNotFoundException: service.impl.RasporedPortTypeImpl from [Module \"deployment.03RasporedEAR.ear.03RasporedSOAP.war:main\" from Service Module Loader]"},
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.undertow.deployment.default-server.default-host./03RasporedSOAP.UndertowDeploymentInfoService"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined
+}
+2018-06-10 14:44:34,218 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "03RasporedEAR.ear" (runtime-name : "03RasporedEAR.ear")
+2018-06-10 14:44:34,254 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP.UndertowDeploymentInfoService: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: service.impl.RasporedPortTypeImpl from [Module "deployment.03RasporedEAR.ear.03RasporedSOAP.war:main" from Service Module Loader]
+
+2018-06-10 14:44:34,832 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-06-10 14:44:34,833 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-06-10 14:44:34,834 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started (with errors) in 22909ms - Started 474 of 734 services (4 services failed or missing dependencies, 427 services are lazy, passive or on-demand)
+2018-06-10 14:44:34,932 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: 03RasporedSOAP.war) in 52ms
+2018-06-10 14:44:34,933 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment 03RasporedEAR.ear (runtime-name: 03RasporedEAR.ear) in 54ms
+2018-06-10 14:44:35,040 WARN  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2018-06-10 14:44:35,041 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "03RasporedEAR.ear" (runtime-name: "03RasporedEAR.ear")
+2018-06-10 14:44:35,043 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.subunit."03RasporedEAR.ear"."03RasporedSOAP.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.deployment.subunit."03RasporedEAR.ear"."03RasporedSOAP.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP] 
+      service jboss.deployment.subunit."03RasporedEAR.ear"."03RasporedSOAP.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.deployment.subunit."03RasporedEAR.ear"."03RasporedSOAP.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP] 
+      service jboss.deployment.subunit."03RasporedEAR.ear"."03RasporedSOAP.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.deployment.subunit."03RasporedEAR.ear"."03RasporedSOAP.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP] 
+      service jboss.deployment.subunit."03RasporedEAR.ear"."03RasporedSOAP.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.deployment.subunit."03RasporedEAR.ear"."03RasporedSOAP.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP] 
+      service jboss.deployment.subunit."03RasporedEAR.ear"."03RasporedSOAP.war".component."org.apache.axis.transport.http.AdminServlet".START (missing) dependents: [service jboss.deployment.subunit."03RasporedEAR.ear"."03RasporedSOAP.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP] 
+      service jboss.deployment.subunit."03RasporedEAR.ear"."03RasporedSOAP.war".component."org.apache.axis.transport.http.AxisServlet".START (missing) dependents: [service jboss.deployment.subunit."03RasporedEAR.ear"."03RasporedSOAP.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP] 
+      service jboss.deployment.subunit."03RasporedEAR.ear"."03RasporedSOAP.war".deploymentCompleteService (missing) dependents: [service jboss.deployment.unit."03RasporedEAR.ear".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP (missing) dependents: [service jboss.deployment.subunit."03RasporedEAR.ear"."03RasporedSOAP.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP.UndertowDeploymentInfoService (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP] 
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP.UndertowDeploymentInfoService
+
+2018-06-10 14:44:39,377 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found 03RasporedEAR.ear in deployment directory. To trigger deployment create a file called 03RasporedEAR.ear.dodeploy
+2018-06-10 14:45:31,263 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+2018-06-10 14:45:31,265 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2018-06-10 14:45:31,287 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-06-10 14:45:31,290 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2018-06-10 14:45:31,310 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) WFLYJCA0011: Unbound JCA ConnectionFactory [java:/JmsXA]
+2018-06-10 14:45:31,313 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-06-10 14:45:31,327 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 78) WFLYMSGAMQ0006: Unbound messaging object to jndi name java:/ConnectionFactory
+2018-06-10 14:45:31,340 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-06-10 14:45:31,345 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-06-10 14:45:31,346 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0019: Host default-host stopping
+2018-06-10 14:45:31,523 INFO  [org.apache.activemq.artemis.ra] (ServerService Thread Pool -- 76) AMQ151003: resource adaptor stopped
+2018-06-10 14:45:31,623 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 76) AMQ221002: Apache ActiveMQ Artemis Message Broker version 1.1.0.wildfly-017 [c18bde1f-6be2-11e8-a6b8-cb46bb04a59b] stopped
+2018-06-10 14:45:31,624 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2018-06-10 14:45:31,625 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-06-10 14:45:31,627 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-06-10 14:45:31,645 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 358ms
+2018-06-10 14:45:34,589 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-06-10 14:45:34,850 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-06-10 14:45:34,941 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-06-10 14:45:34,943 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\jboss-modules.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_161\jre
+	java.io.tmpdir = C:\Users\Pane\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jdk1.8.0_161/jre/bin/server;C:/Program Files/Java/jdk1.8.0_161/jre/bin;C:/Program Files/Java/jdk1.8.0_161/jre/lib/amd64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\PuTTY\;C:\Users\Pane\AppData\Local\Microsoft\WindowsApps;;C:\Users\Pane\eclipse\eclipse\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_161-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_161
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.161-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final
+	jboss.host.name = desktop-373aqms
+	jboss.modules.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-373aqms
+	jboss.qualified.host.name = desktop-373aqms
+	jboss.server.base.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone
+	jboss.server.config.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\configuration
+	jboss.server.data.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\data
+	jboss.server.deploy.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\data\content
+	jboss.server.log.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\log
+	jboss.server.name = desktop-373aqms
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\configuration\logging.properties
+	module.path = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\modules
+	org.jboss.boot.log.file = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 10.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_161\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone-full.xml -Djboss.server.base.dir=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\bin
+	user.home = C:\Users\Pane
+	user.language = en
+	user.name = Pane
+	user.script = 
+	user.timezone = Europe/Prague
+	user.variant = 
+2018-06-10 14:45:34,944 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\log\boot.log -Dlogging.configuration=file:D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2018-06-10 14:45:37,083 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found 03RasporedEAR.ear in deployment directory. To trigger deployment create a file called 03RasporedEAR.ear.dodeploy
+2018-06-10 14:45:37,117 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-06-10 14:45:37,143 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.4.0.Final
+2018-06-10 14:45:37,156 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.4.0.Final
+2018-06-10 14:45:37,269 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-06-10 14:45:37,291 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 42) WFLYIIOP0001: Activating IIOP Subsystem
+2018-06-10 14:45:37,292 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-06-10 14:45:37,303 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-06-10 14:45:37,458 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 62) WFLYWS0002: Activating WebServices Extension
+2018-06-10 14:45:37,460 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 60) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-06-10 14:45:37,467 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 59) WFLYSEC0002: Activating Security Subsystem
+2018-06-10 14:45:37,489 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-06-10 14:45:37,496 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-06-10 14:45:37,532 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2018-06-10 14:45:37,702 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-06-10 14:45:37,710 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-06-10 14:45:37,755 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-06-10 14:45:37,875 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2018-06-10 14:45:37,897 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-06-10 14:45:37,967 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-06-10 14:45:37,968 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-06-10 14:45:38,112 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0014: Creating file handler for path 'D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-06-10 14:45:38,801 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2018-06-10 14:45:38,808 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2018-06-10 14:45:38,808 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.21.Final
+2018-06-10 14:45:38,971 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-06-10 14:45:39,345 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2018-06-10 14:45:39,400 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-06-10 14:45:39,435 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\deployments
+2018-06-10 14:45:40,065 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-6) WFLYIIOP0009: CORBA ORB Service started
+2018-06-10 14:45:40,152 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\data\activemq\journal,bindingsDirectory=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\data\activemq\bindings,largeMessagesDirectory=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\data\activemq\largemessages,pagingDirectory=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\data\activemq\paging)
+2018-06-10 14:45:40,200 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-06-10 14:45:40,872 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-06-10 14:45:40,894 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221013: Using NIO Journal
+2018-06-10 14:45:40,960 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-10 14:45:40,965 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 65) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-10 14:45:40,958 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 72) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-10 14:45:40,969 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 72) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-10 14:45:40,957 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 71) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-10 14:45:40,974 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 71) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-10 14:45:41,152 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2018-06-10 14:45:41,171 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2018-06-10 14:45:41,186 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2018-06-10 14:45:41,189 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2018-06-10 14:45:41,649 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-06-10 14:45:41,817 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-4) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2018-06-10 14:45:41,822 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2018-06-10 14:45:41,824 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2018-06-10 14:45:41,822 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2018-06-10 14:45:41,842 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-06-10 14:45:42,061 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221007: Server is now live
+2018-06-10 14:45:42,061 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.wildfly-017 [nodeID=c18bde1f-6be2-11e8-a6b8-cb46bb04a59b] 
+2018-06-10 14:45:42,101 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 64) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2018-06-10 14:45:42,223 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 65) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2018-06-10 14:45:42,224 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-7) WFLYJCA0007: Registered connection factory java:/JmsXA
+2018-06-10 14:45:42,225 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 72) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2018-06-10 14:45:42,266 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 71) AMQ221003: trying to deploy queue jms.queue.DLQ
+2018-06-10 14:45:42,312 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-7) Resource adaptor started
+2018-06-10 14:45:42,313 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-7) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2018-06-10 14:45:42,316 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2018-06-10 14:45:42,316 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2018-06-10 14:45:42,662 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-06-10 14:45:42,663 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-06-10 14:45:42,664 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 8693ms - Started 370 of 615 services (408 services are lazy, passive or on-demand)
+2018-06-10 14:45:59,522 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "03RasporedEAR.ear" (runtime-name: "03RasporedEAR.ear")
+2018-06-10 14:45:59,569 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "03RasporedSOAP.war")
+2018-06-10 14:46:00,765 WARN  [org.jboss.as.ee] (MSC service thread 1-1) WFLYEE0007: Not installing optional component service.impl.RasporedPortTypeImpl due to an exception (enable DEBUG log level to see the cause)
+2018-06-10 14:46:00,933 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-5) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP.UndertowDeploymentInfoService: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: service.impl.RasporedPortTypeImpl from [Module "deployment.03RasporedEAR.ear.03RasporedSOAP.war:main" from Service Module Loader]
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService.createServletConfig(UndertowDeploymentInfoService.java:1079)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService.start(UndertowDeploymentInfoService.java:284)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: service.impl.RasporedPortTypeImpl from [Module "deployment.03RasporedEAR.ear.03RasporedSOAP.war:main" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:198)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:363)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:351)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:93)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService.createServletConfig(UndertowDeploymentInfoService.java:723)
+	... 6 more
+
+2018-06-10 14:46:00,999 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 2) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "03RasporedEAR.ear")]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"jboss.undertow.deployment.default-server.default-host./03RasporedSOAP.UndertowDeploymentInfoService" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: service.impl.RasporedPortTypeImpl from [Module \"deployment.03RasporedEAR.ear.03RasporedSOAP.war:main\" from Service Module Loader]
+    Caused by: java.lang.ClassNotFoundException: service.impl.RasporedPortTypeImpl from [Module \"deployment.03RasporedEAR.ear.03RasporedSOAP.war:main\" from Service Module Loader]"},
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.undertow.deployment.default-server.default-host./03RasporedSOAP.UndertowDeploymentInfoService"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => undefined
+}
+2018-06-10 14:46:01,101 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "03RasporedEAR.ear" (runtime-name : "03RasporedEAR.ear")
+2018-06-10 14:46:01,102 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP.UndertowDeploymentInfoService: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./03RasporedSOAP.UndertowDeploymentInfoService: java.lang.ClassNotFoundException: service.impl.RasporedPortTypeImpl from [Module "deployment.03RasporedEAR.ear.03RasporedSOAP.war:main" from Service Module Loader]
+
+2018-06-10 14:47:16,092 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-06-10 14:47:16,494 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-06-10 14:47:16,680 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-06-10 14:47:16,682 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\jboss-modules.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_161\jre
+	java.io.tmpdir = C:\Users\Pane\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jdk1.8.0_161/jre/bin/server;C:/Program Files/Java/jdk1.8.0_161/jre/bin;C:/Program Files/Java/jdk1.8.0_161/jre/lib/amd64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\PuTTY\;C:\Users\Pane\AppData\Local\Microsoft\WindowsApps;;C:\Users\Pane\eclipse\eclipse\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_161-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_161
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.161-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final
+	jboss.host.name = desktop-373aqms
+	jboss.modules.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-373aqms
+	jboss.qualified.host.name = desktop-373aqms
+	jboss.server.base.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone
+	jboss.server.config.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\configuration
+	jboss.server.data.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\data
+	jboss.server.deploy.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\data\content
+	jboss.server.log.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\log
+	jboss.server.name = desktop-373aqms
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\configuration\logging.properties
+	module.path = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\modules
+	org.jboss.boot.log.file = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 10.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_161\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone-full.xml -Djboss.server.base.dir=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\bin
+	user.home = C:\Users\Pane
+	user.language = en
+	user.name = Pane
+	user.script = 
+	user.timezone = Europe/Prague
+	user.variant = 
+2018-06-10 14:47:16,683 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\log\boot.log -Dlogging.configuration=file:D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2018-06-10 14:47:19,313 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found 03RasporedEAR.ear in deployment directory. To trigger deployment create a file called 03RasporedEAR.ear.dodeploy
+2018-06-10 14:47:19,392 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-06-10 14:47:19,416 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.4.0.Final
+2018-06-10 14:47:19,428 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.4.0.Final
+2018-06-10 14:47:19,581 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 62) WFLYWS0002: Activating WebServices Extension
+2018-06-10 14:47:19,584 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 60) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-06-10 14:47:19,799 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 59) WFLYSEC0002: Activating Security Subsystem
+2018-06-10 14:47:19,804 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-06-10 14:47:19,806 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2018-06-10 14:47:19,814 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-06-10 14:47:19,833 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 42) WFLYIIOP0001: Activating IIOP Subsystem
+2018-06-10 14:47:19,858 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-06-10 14:47:19,866 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-06-10 14:47:19,893 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-06-10 14:47:19,897 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-06-10 14:47:20,049 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-06-10 14:47:20,129 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-06-10 14:47:20,186 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2018-06-10 14:47:20,194 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-06-10 14:47:20,242 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0014: Creating file handler for path 'D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-06-10 14:47:20,351 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-06-10 14:47:20,352 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-06-10 14:47:21,220 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 4.0.21.Final
+2018-06-10 14:47:21,248 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2018-06-10 14:47:21,249 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2018-06-10 14:47:21,399 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-06-10 14:47:21,447 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-06-10 14:47:21,526 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "03RasporedEAR.ear" (runtime-name: "03RasporedEAR.ear")
+2018-06-10 14:47:21,532 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\deployments
+2018-06-10 14:47:21,603 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2018-06-10 14:47:21,968 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\data\activemq\journal,bindingsDirectory=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\data\activemq\bindings,largeMessagesDirectory=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\data\activemq\largemessages,pagingDirectory=D:\4.Fax\letnji semestar\distribuirani\server\wildfly-10.1.0.Final\standalone\data\activemq\paging)
+2018-06-10 14:47:21,998 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "03RasporedSOAP.war")
+2018-06-10 14:47:22,118 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-06-10 14:47:22,176 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221013: Using NIO Journal
+2018-06-10 14:47:22,210 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-06-10 14:47:22,711 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 72) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-10 14:47:22,712 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-10 14:47:22,712 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 70) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-10 14:47:22,713 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 72) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-10 14:47:22,717 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-10 14:47:22,719 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 70) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-10 14:47:23,298 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2018-06-10 14:47:23,313 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2018-06-10 14:47:23,416 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2018-06-10 14:47:23,419 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2018-06-10 14:47:23,482 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-6) WFLYIIOP0009: CORBA ORB Service started
+2018-06-10 14:47:24,164 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2018-06-10 14:47:24,168 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-8) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2018-06-10 14:47:24,168 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2018-06-10 14:47:24,166 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-1) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2018-06-10 14:47:24,446 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221007: Server is now live
+2018-06-10 14:47:24,446 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 64) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.wildfly-017 [nodeID=c18bde1f-6be2-11e8-a6b8-cb46bb04a59b] 
+2018-06-10 14:47:24,495 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 64) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2018-06-10 14:47:24,572 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 73) AMQ221003: trying to deploy queue jms.queue.DLQ
+2018-06-10 14:47:24,630 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 70) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2018-06-10 14:47:24,632 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 69) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2018-06-10 14:47:24,796 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-7) WFLYJCA0007: Registered connection factory java:/JmsXA
+2018-06-10 14:47:24,811 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-06-10 14:47:24,952 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-7) Resource adaptor started
+2018-06-10 14:47:24,954 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-7) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2018-06-10 14:47:24,963 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-7) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2018-06-10 14:47:24,964 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2018-06-10 14:47:25,023 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-06-10 14:47:26,160 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-1) JBWS024061: Adding service endpoint metadata: id=RasporedPortType
+ address=http://localhost:8080/03RasporedSOAP/RasporedPortType
+ implementor=service.impl.RasporedPortTypeImpl
+ serviceName={http://www.example.org/rasporedcasova/}rasporedcasova
+ portName={http://www.example.org/rasporedcasova/}RasporedPortTypeImplPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2018-06-10 14:47:27,504 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-1) Creating Service {http://www.example.org/rasporedcasova/}rasporedcasova from class service.RasporedPortType
+2018-06-10 14:47:28,445 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-1) Setting the server's publish address to be http://localhost:8080/03RasporedSOAP/RasporedPortType
+2018-06-10 14:47:28,576 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-1) JBWS024074: WSDL published to: file:/D:/4.Fax/letnji semestar/distribuirani/server/wildfly-10.1.0.Final/standalone/data/wsdl/03RasporedEAR.ear/03RasporedSOAP.war/rasporedcasova.wsdl
+2018-06-10 14:47:28,625 INFO  [org.jboss.as.webservices] (MSC service thread 1-5) WFLYWS0003: Starting service jboss.ws.endpoint."03RasporedEAR.ear"."03RasporedSOAP.war".RasporedPortType
+2018-06-10 14:47:29,047 ERROR [org.apache.axis.configuration.EngineConfigurationFactoryServlet] (ServerService Thread Pool -- 73) Unable to find config file.  Creating new servlet engine config file: /WEB-INF/server-config.wsdd
+2018-06-10 14:47:29,294 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0021: Registered web context: /03RasporedSOAP
+2018-06-10 14:47:29,377 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "03RasporedEAR.ear" (runtime-name : "03RasporedEAR.ear")
+2018-06-10 14:47:29,621 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-06-10 14:47:29,622 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-06-10 14:47:29,622 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 14085ms - Started 489 of 744 services (427 services are lazy, passive or on-demand)
+2018-06-10 14:52:25,971 WARNING [org.apache.cxf.phase.PhaseInterceptorChain] (default task-7) Interceptor for {http://www.example.org/rasporedcasova/}rasporedcasova has thrown exception, unwinding now: java.lang.IllegalArgumentException: JBWS024108: Invalid request received:bindingOperation and dispatched method are missing for service implementation invocation
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke(JBossWSInvoker.java:141)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$2.run(ServiceInvokerInterceptor.java:126)
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:131)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:108)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:134)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:298)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:222)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-06-10 14:53:10,729 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0022: Unregistered web context: /03RasporedSOAP
+2018-06-10 14:53:10,755 INFO  [org.jboss.as.webservices] (MSC service thread 1-6) WFLYWS0004: Stopping service jboss.ws.endpoint."03RasporedEAR.ear"."03RasporedSOAP.war".RasporedPortType
+2018-06-10 14:53:10,886 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0208: Stopped subdeployment (runtime-name: 03RasporedSOAP.war) in 189ms
+2018-06-10 14:53:10,888 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment 03RasporedEAR.ear (runtime-name: 03RasporedEAR.ear) in 193ms
+2018-06-10 14:53:10,889 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "03RasporedEAR.ear" (runtime-name: "03RasporedEAR.ear")
+2018-06-10 14:53:10,903 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0207: Starting subdeployment (runtime-name: "03RasporedSOAPClient.war")
+2018-06-10 14:53:10,903 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0207: Starting subdeployment (runtime-name: "03RasporedSOAP.war")
+2018-06-10 14:53:11,548 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-8) JBWS024061: Adding service endpoint metadata: id=RasporedPortType
+ address=http://localhost:8080/03RasporedSOAP/RasporedPortType
+ implementor=service.impl.RasporedPortTypeImpl
+ serviceName={http://www.example.org/rasporedcasova/}rasporedcasova
+ portName={http://www.example.org/rasporedcasova/}RasporedPortTypeImplPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2018-06-10 14:53:11,606 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0021: Registered web context: /03RasporedSOAPClient
+2018-06-10 14:53:11,616 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-8) Creating Service {http://www.example.org/rasporedcasova/}rasporedcasova from class service.RasporedPortType
+2018-06-10 14:53:11,689 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-8) Setting the server's publish address to be http://localhost:8080/03RasporedSOAP/RasporedPortType
+2018-06-10 14:53:11,757 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-8) JBWS024074: WSDL published to: file:/D:/4.Fax/letnji semestar/distribuirani/server/wildfly-10.1.0.Final/standalone/data/wsdl/03RasporedEAR.ear/03RasporedSOAP.war/rasporedcasova.wsdl
+2018-06-10 14:53:11,771 INFO  [org.jboss.as.webservices] (MSC service thread 1-7) WFLYWS0003: Starting service jboss.ws.endpoint."03RasporedEAR.ear"."03RasporedSOAP.war".RasporedPortType
+2018-06-10 14:53:11,855 ERROR [org.apache.axis.configuration.EngineConfigurationFactoryServlet] (ServerService Thread Pool -- 77) Unable to find config file.  Creating new servlet engine config file: /WEB-INF/server-config.wsdd
+2018-06-10 14:53:11,966 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0021: Registered web context: /03RasporedSOAP
+2018-06-10 14:53:12,053 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "03RasporedEAR.ear" with deployment "03RasporedEAR.ear"
+2018-06-10 20:55:52,255 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 83) WFLYUT0022: Unregistered web context: /03RasporedSOAPClient
+2018-06-10 20:55:52,255 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 84) WFLYUT0022: Unregistered web context: /03RasporedSOAP
+2018-06-10 20:55:54,139 INFO  [org.jboss.as.webservices] (MSC service thread 1-6) WFLYWS0004: Stopping service jboss.ws.endpoint."03RasporedEAR.ear"."03RasporedSOAP.war".RasporedPortType
+2018-06-10 20:55:57,078 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0208: Stopped subdeployment (runtime-name: 03RasporedSOAPClient.war) in 6180ms
+2018-06-10 20:55:58,406 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0208: Stopped subdeployment (runtime-name: 03RasporedSOAP.war) in 7523ms
+2018-06-10 20:55:58,434 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment 03RasporedEAR.ear (runtime-name: 03RasporedEAR.ear) in 7566ms
+2018-06-10 20:56:03,474 WARN  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2018-06-10 20:56:03,748 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "03RasporedEAR.ear" (runtime-name: "03RasporedEAR.ear")
+2018-06-10 20:56:08,811 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found 03RasporedEAR.ear in deployment directory. To trigger deployment create a file called 03RasporedEAR.ear.dodeploy
+2018-06-10 20:56:08,911 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "03RasporedEAR.ear" (runtime-name: "03RasporedEAR.ear")
+2018-06-10 20:56:08,994 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "03RasporedSOAP.war")
+2018-06-10 20:56:08,994 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "03RasporedSOAPClient.war")
+2018-06-10 20:56:10,472 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-8) JBWS024061: Adding service endpoint metadata: id=RasporedPortType
+ address=http://localhost:8080/03RasporedSOAP/RasporedPortType
+ implementor=service.impl.RasporedPortTypeImpl
+ serviceName={http://www.example.org/rasporedcasova/}rasporedcasova
+ portName={http://www.example.org/rasporedcasova/}RasporedPortTypeImplPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2018-06-10 20:56:12,119 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0021: Registered web context: /03RasporedSOAPClient
+2018-06-10 20:56:12,135 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-8) Creating Service {http://www.example.org/rasporedcasova/}rasporedcasova from class service.RasporedPortType
+2018-06-10 20:56:12,740 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-8) Setting the server's publish address to be http://localhost:8080/03RasporedSOAP/RasporedPortType
+2018-06-10 20:56:12,818 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-8) JBWS024074: WSDL published to: file:/D:/4.Fax/letnji semestar/distribuirani/server/wildfly-10.1.0.Final/standalone/data/wsdl/03RasporedEAR.ear/03RasporedSOAP.war/rasporedcasova.wsdl
+2018-06-10 20:56:13,001 INFO  [org.jboss.as.webservices] (MSC service thread 1-7) WFLYWS0003: Starting service jboss.ws.endpoint."03RasporedEAR.ear"."03RasporedSOAP.war".RasporedPortType
+2018-06-10 20:56:13,320 ERROR [org.apache.axis.configuration.EngineConfigurationFactoryServlet] (ServerService Thread Pool -- 82) Unable to find config file.  Creating new servlet engine config file: /WEB-INF/server-config.wsdd
+2018-06-10 20:56:13,670 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0021: Registered web context: /03RasporedSOAP
+2018-06-10 20:56:13,694 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "03RasporedEAR.ear" (runtime-name : "03RasporedEAR.ear")
+2018-06-10 20:56:50,814 ERROR [stderr] (default task-14) javax.xml.ws.soap.SOAPFaultException: nema heder elementa
+2018-06-10 20:56:50,815 ERROR [stderr] (default task-14) 	at handlers.AddressHandler.generatefault(AddressHandler.java:81)
+2018-06-10 20:56:50,815 ERROR [stderr] (default task-14) 	at handlers.AddressHandler.handleMessage(AddressHandler.java:44)
+2018-06-10 20:56:50,815 ERROR [stderr] (default task-14) 	at handlers.AddressHandler.handleMessage(AddressHandler.java:1)
+2018-06-10 20:56:50,816 ERROR [stderr] (default task-14) 	at org.apache.cxf.jaxws.handler.HandlerChainInvoker.invokeHandleMessage(HandlerChainInvoker.java:359)
+2018-06-10 20:56:50,816 ERROR [stderr] (default task-14) 	at org.apache.cxf.jaxws.handler.HandlerChainInvoker.invokeHandlerChain(HandlerChainInvoker.java:255)
+2018-06-10 20:56:50,816 ERROR [stderr] (default task-14) 	at org.apache.cxf.jaxws.handler.HandlerChainInvoker.invokeProtocolHandlers(HandlerChainInvoker.java:132)
+2018-06-10 20:56:50,816 ERROR [stderr] (default task-14) 	at org.jboss.wsf.stack.cxf.interceptor.HandlerAuthInterceptor$JBossWSHandlerChainInvoker.invokeProtocolHandlers(HandlerAuthInterceptor.java:113)
+2018-06-10 20:56:50,816 ERROR [stderr] (default task-14) 	at org.apache.cxf.jaxws.handler.soap.SOAPHandlerInterceptor.handleMessageInternal(SOAPHandlerInterceptor.java:169)
+2018-06-10 20:56:50,816 ERROR [stderr] (default task-14) 	at org.apache.cxf.jaxws.handler.soap.SOAPHandlerInterceptor.handleMessage(SOAPHandlerInterceptor.java:124)
+2018-06-10 20:56:50,817 ERROR [stderr] (default task-14) 	at org.apache.cxf.jaxws.handler.soap.SOAPHandlerInterceptor.handleMessage(SOAPHandlerInterceptor.java:71)
+2018-06-10 20:56:50,817 ERROR [stderr] (default task-14) 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+2018-06-10 20:56:50,817 ERROR [stderr] (default task-14) 	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+2018-06-10 20:56:50,817 ERROR [stderr] (default task-14) 	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+2018-06-10 20:56:50,817 ERROR [stderr] (default task-14) 	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:108)
+2018-06-10 20:56:50,818 ERROR [stderr] (default task-14) 	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:134)
+2018-06-10 20:56:50,818 ERROR [stderr] (default task-14) 	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
+2018-06-10 20:56:50,818 ERROR [stderr] (default task-14) 	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:298)
+2018-06-10 20:56:50,818 ERROR [stderr] (default task-14) 	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217)
+2018-06-10 20:56:50,818 ERROR [stderr] (default task-14) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+2018-06-10 20:56:50,818 ERROR [stderr] (default task-14) 	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
+2018-06-10 20:56:50,819 ERROR [stderr] (default task-14) 	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140)
+2018-06-10 20:56:50,819 ERROR [stderr] (default task-14) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+2018-06-10 20:56:50,819 ERROR [stderr] (default task-14) 	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+2018-06-10 20:56:50,819 ERROR [stderr] (default task-14) 	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+2018-06-10 20:56:50,819 ERROR [stderr] (default task-14) 	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+2018-06-10 20:56:50,819 ERROR [stderr] (default task-14) 	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+2018-06-10 20:56:50,820 ERROR [stderr] (default task-14) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2018-06-10 20:56:50,820 ERROR [stderr] (default task-14) 	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+2018-06-10 20:56:50,820 ERROR [stderr] (default task-14) 	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+2018-06-10 20:56:50,820 ERROR [stderr] (default task-14) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2018-06-10 20:56:50,820 ERROR [stderr] (default task-14) 	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+2018-06-10 20:56:50,820 ERROR [stderr] (default task-14) 	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+2018-06-10 20:56:50,820 ERROR [stderr] (default task-14) 	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+2018-06-10 20:56:50,821 ERROR [stderr] (default task-14) 	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+2018-06-10 20:56:50,821 ERROR [stderr] (default task-14) 	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+2018-06-10 20:56:50,821 ERROR [stderr] (default task-14) 	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+2018-06-10 20:56:50,821 ERROR [stderr] (default task-14) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2018-06-10 20:56:50,821 ERROR [stderr] (default task-14) 	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+2018-06-10 20:56:50,821 ERROR [stderr] (default task-14) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2018-06-10 20:56:50,822 ERROR [stderr] (default task-14) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2018-06-10 20:56:50,822 ERROR [stderr] (default task-14) 	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+2018-06-10 20:56:50,822 ERROR [stderr] (default task-14) 	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+2018-06-10 20:56:50,822 ERROR [stderr] (default task-14) 	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+2018-06-10 20:56:50,822 ERROR [stderr] (default task-14) 	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+2018-06-10 20:56:50,822 ERROR [stderr] (default task-14) 	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+2018-06-10 20:56:50,823 ERROR [stderr] (default task-14) 	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+2018-06-10 20:56:50,823 ERROR [stderr] (default task-14) 	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+2018-06-10 20:56:50,823 ERROR [stderr] (default task-14) 	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+2018-06-10 20:56:50,823 ERROR [stderr] (default task-14) 	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+2018-06-10 20:56:50,823 ERROR [stderr] (default task-14) 	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+2018-06-10 20:56:50,823 ERROR [stderr] (default task-14) 	at io.undertow.servlet.api.LegacyThreadSetupActionWrapper$1.call(LegacyThreadSetupActionWrapper.java:44)
+2018-06-10 20:56:50,824 ERROR [stderr] (default task-14) 	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+2018-06-10 20:56:50,824 ERROR [stderr] (default task-14) 	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+2018-06-10 20:56:50,824 ERROR [stderr] (default task-14) 	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+2018-06-10 20:56:50,824 ERROR [stderr] (default task-14) 	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:202)
+2018-06-10 20:56:50,825 ERROR [stderr] (default task-14) 	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:805)
+2018-06-10 20:56:50,825 ERROR [stderr] (default task-14) 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2018-06-10 20:56:50,825 ERROR [stderr] (default task-14) 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2018-06-10 20:56:50,825 ERROR [stderr] (default task-14) 	at java.lang.Thread.run(Thread.java:748)

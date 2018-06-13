@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.example.org/rasporedcasova/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="rasporedcasova" targetNamespace="http://www.example.org/rasporedcasova/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.example.org/rasporedcasova/">
+      <xsd:element name="NewOperation">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="in" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="NewOperationResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="out" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="rasporedReques" type="tns:RasporedRequesType">
+      </xsd:element>
+
+      <xsd:complexType name="RasporedRequesType">
+      	<xsd:sequence>
+      		<xsd:element name="godina" type="xsd:int"/>
+      		<xsd:element name="smer" type="xsd:string"/>
+      	</xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="resporedResponse" type="tns:RasporedResponseType">
+      </xsd:element>
+
+      <xsd:complexType name="RasporedResponseType">
+      	<xsd:sequence>
+      		<xsd:element maxOccurs="unbounded" minOccurs="0" name="cas" type="tns:CasoviType"/>
+      	</xsd:sequence>
+      </xsd:complexType>
+    
+      <xsd:complexType name="CasoviType">
+      	<xsd:sequence>
+      		<xsd:element name="predmet" type="xsd:string"/>
+      		<xsd:element name="dan" type="xsd:string"/>
+      	</xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="getRasporedFault">
+      	<xsd:complexType>
+      		<xsd:sequence>
+
+      			<xsd:element name="getRasporedFault" type="xsd:string">
+      			</xsd:element>
+      		</xsd:sequence>
+      	</xsd:complexType>
+      </xsd:element>
+      <xsd:element name="rasporedFault" type="tns:rasporedFaultType"/>
+
+      <xsd:complexType name="rasporedFaultType">
+      	<xsd:sequence>
+      		<xsd:element name="rasporedFault" type="xsd:string"/>
+      	</xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="getRasporedRequest">
+    <wsdl:part element="tns:rasporedReques" name="in"/>
+  </wsdl:message>
+  <wsdl:message name="getRasporedResponse">
+    <wsdl:part element="tns:resporedResponse" name="out"/>
+  </wsdl:message>
+  <wsdl:message name="getRasporedFault">
+  	<wsdl:part element="tns:rasporedFault" name="parameters"/>
+  </wsdl:message>
+  <wsdl:portType name="RasporedPortType">
+    <wsdl:operation name="getRaspored">
+      <wsdl:input message="tns:getRasporedRequest"/>
+      <wsdl:output message="tns:getRasporedResponse"/>
+            <wsdl:fault message="tns:getRasporedFault" name="fault"/>
+        </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="rasporedcasovaSOAP" type="tns:RasporedPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getRaspored">
+      <soap:operation soapAction="http://www.example.org/rasporedcasova/getRaspored"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="rasporedcasova">
+    <wsdl:port binding="tns:rasporedcasovaSOAP" name="RasporedPort">
+      <soap:address location="http://localhost:8080/03RasporedSOAP/services/RasporedPort"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

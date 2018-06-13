@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" version="7">
+  <display-name>RasporedCasovaServiceEAR</display-name>
+  <module>
+    <web>
+      <web-uri>RasporedCasovaService.war</web-uri>
+      <context-root>RasporedCasovaService</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>03RestClient.war</web-uri>
+      <context-root>03RestClient</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>RasporedCasovaClientt.war</web-uri>
+      <context-root>RasporedCasovaClientt</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>03RasporedSOAP.war</web-uri>
+      <context-root>03RasporedSOAP</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>WSStudentServiceSec.war</web-uri>
+      <context-root>WSStudentServiceSec</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>SOAPServer.war</web-uri>
+      <context-root>SOAPServer</context-root>
+    </web>
+  </module>
+</application>

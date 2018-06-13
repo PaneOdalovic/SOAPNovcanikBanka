@@ -1,0 +1,57 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from rasporedcasova WSDL service -->
+
+  <service name="RasporedPort" provider="java:RPC" style="document" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://www.example.org/rasporedcasova/"/>
+      <parameter name="wsdlServiceElement" value="rasporedcasova"/>
+      <parameter name="schemaUnqualified" value="http://www.example.org/rasporedcasova/"/>
+      <parameter name="wsdlServicePort" value="RasporedPort"/>
+      <parameter name="className" value="org.example.www.rasporedcasova.RasporedcasovaSOAPSkeleton"/>
+      <parameter name="wsdlPortType" value="RasporedPortType"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <parameter name="allowedMethods" value="*"/>
+
+      <arrayMapping
+        xmlns:ns="http://www.example.org/rasporedcasova/"
+        qname="ns:RasporedResponseType"
+        type="java:org.example.www.rasporedcasova.CasoviType[]"
+        innerType="cmp-ns:CasoviType" xmlns:cmp-ns="http://www.example.org/rasporedcasova/"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://www.example.org/rasporedcasova/"
+        qname="ns:rasporedFaultType"
+        type="java:org.example.www.rasporedcasova.RasporedFaultType"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://www.example.org/rasporedcasova/"
+        qname="ns:RasporedRequesType"
+        type="java:org.example.www.rasporedcasova.RasporedRequesType"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://www.example.org/rasporedcasova/"
+        qname="ns:CasoviType"
+        type="java:org.example.www.rasporedcasova.CasoviType"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+  </service>
+</deployment>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://www.example.org/studentska/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="studentska" targetNamespace="http://www.example.org/studentska/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.example.org/studentska/" targetNamespace="http://www.example.org/studentska/" version="1.0">
+
+  <xs:element name="Fakultet" type="tns:fakultet"/>
+
+  <xs:element name="Studenti" type="tns:studenti"/>
+
+  <xs:element name="fakultetIngetStudentska">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="in" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="getStudentskaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="out" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="fakultet">
+    <xs:sequence>
+      <xs:element name="ime" type="xs:string"/>
+      <xs:element name="mesto" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="studenti">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="studenti" nillable="true" type="tns:studentType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="studentType">
+    <xs:sequence>
+      <xs:element name="ime" type="xs:string"/>
+      <xs:element name="brojIndeksa" type="xs:int"/>
+      <xs:element name="fakultet" type="tns:fakultet"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getStudentskaResponse">
+    <wsdl:part element="tns:Studenti" name="studenti">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getStudentska">
+    <wsdl:part element="tns:Fakultet" name="fakultet">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="StudentskaPortType">
+    <wsdl:operation name="getStudentska">
+      <wsdl:input message="tns:getStudentska" name="getStudentska">
+    </wsdl:input>
+      <wsdl:output message="tns:getStudentskaResponse" name="getStudentskaResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="studentskaSoapBinding" type="tns:StudentskaPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getStudentska">
+      <soap:operation soapAction="http://www.example.org/studentska/getStudentska" style="document"/>
+      <wsdl:input name="getStudentska">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getStudentskaResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="studentska">
+    <wsdl:port binding="tns:studentskaSoapBinding" name="StudentskaPortTypeImplPort">
+      <soap:address location="http://localhost:8080/SOAPServer/StudentskaPortType"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
