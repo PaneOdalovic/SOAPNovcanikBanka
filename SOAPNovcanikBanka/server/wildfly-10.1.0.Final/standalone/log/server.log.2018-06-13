@@ -1,0 +1,151 @@
+2018-06-13 20:25:15,520 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-06-13 20:25:15,553 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-06-13 20:25:15,548 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-06-13 20:25:15,526 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-06-13 20:25:15,563 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-06-13 20:25:15,590 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-06-13 20:25:15,643 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-06-13 20:25:15,659 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-06-13 20:25:15,985 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-06-13 20:25:16,302 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-06-13 20:25:17,009 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-06-13 20:25:17,015 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-06-13 20:25:17,157 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path 'D:\4.Fax\letnji semestar\ProjekatDistribuirane\SOAPNovcanikBanka\server\wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-06-13 20:25:17,356 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2018-06-13 20:25:17,358 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-06-13 20:25:18,266 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-06-13 20:25:18,266 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-06-13 20:25:18,269 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2018-06-13 20:25:18,271 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2018-06-13 20:25:18,308 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 4.0.21.Final
+2018-06-13 20:25:19,374 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-06-13 20:25:19,572 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore D:\4.Fax\letnji semestar\ProjekatDistribuirane\SOAPNovcanikBanka\server\wildfly-10.1.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-06-13 20:25:19,611 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "RasporedCasovaServiceEAR.ear" (runtime-name: "RasporedCasovaServiceEAR.ear")
+2018-06-13 20:25:19,664 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory D:\4.Fax\letnji semestar\ProjekatDistribuirane\SOAPNovcanikBanka\server\wildfly-10.1.0.Final\standalone\deployments
+2018-06-13 20:25:19,664 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "BankaServiceEAR.ear" (runtime-name: "BankaServiceEAR.ear")
+2018-06-13 20:25:20,125 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "RasporedCasovaService.war")
+2018-06-13 20:25:20,125 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "WSStudentServiceSec.war")
+2018-06-13 20:25:20,125 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "03RestClient.war")
+2018-06-13 20:25:20,126 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "SOAPServer.war")
+2018-06-13 20:25:20,126 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "RasporedCasovaClientt.war")
+2018-06-13 20:25:20,126 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0207: Starting subdeployment (runtime-name: "03RasporedSOAP.war")
+2018-06-13 20:25:20,127 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "BankaService.war")
+2018-06-13 20:25:20,494 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-06-13 20:25:20,524 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-06-13 20:25:20,993 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-13 20:25:21,001 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-13 20:25:21,007 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-13 20:25:21,010 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-13 20:25:21,017 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-13 20:25:21,019 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-06-13 20:25:21,638 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-06-13 20:25:22,636 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-06-13 20:25:24,464 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.RasporedCasovaServiceEAR.ear.WSStudentServiceSec.war" is using a private module ("org.apache.cxf.impl:main") which may be changed or removed in future versions without notice.
+2018-06-13 20:25:24,571 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-4) WFLYSRV0018: Deployment "deployment.RasporedCasovaServiceEAR.ear.SOAPServer.war" is using a private module ("org.apache.cxf.impl:main") which may be changed or removed in future versions without notice.
+2018-06-13 20:25:26,422 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-1) JBWS024061: Adding service endpoint metadata: id=Banka
+ address=http://localhost:8080/BankaService/Banka
+ implementor=service.impl.BankaImpl
+ serviceName={http://www.example.org/banka/}banka
+ portName={http://www.example.org/banka/}BankaImplPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2018-06-13 20:25:26,422 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-8) JBWS024061: Adding service endpoint metadata: id=StudentskaPortType
+ address=http://localhost:8080/WSStudentServiceSec/StudentskaPortType
+ implementor=service.impl.StudentskaPortTypeImpl
+ serviceName={http://www.example.org/studentska/}studentska
+ portName={http://www.example.org/studentska/}StudentskaPortTypeImplPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2018-06-13 20:25:26,423 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-7) JBWS024061: Adding service endpoint metadata: id=RasporedPortType
+ address=http://localhost:8080/03RasporedSOAP/RasporedPortType
+ implementor=service.impl.RasporedPortTypeImpl
+ serviceName={http://www.example.org/rasporedcasova/}rasporedcasova
+ portName={http://www.example.org/rasporedcasova/}RasporedPortTypeImplPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2018-06-13 20:25:26,423 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-6) JBWS024061: Adding service endpoint metadata: id=StudentskaPortType
+ address=http://localhost:8080/SOAPServer/StudentskaPortType
+ implementor=service.impl.StudentskaPortTypeImpl
+ serviceName={http://www.example.org/studentska/}studentska
+ portName={http://www.example.org/studentska/}StudentskaPortTypeImplPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2018-06-13 20:25:26,424 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-2) JBWS024061: Adding service endpoint metadata: id=RasporedPortType
+ address=http://localhost:8080/RasporedCasovaService/RasporedPortType
+ implementor=service.impl.RasporedPortTypeImpl
+ serviceName={http://www.example.org/rasporedcasova/}rasporedcasova
+ portName={http://www.example.org/rasporedcasova/}RasporedPortTypeImplPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2018-06-13 20:25:27,324 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: /RasporedCasovaClientt
+2018-06-13 20:25:27,324 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 68) WFLYUT0021: Registered web context: /03RestClient
+2018-06-13 20:25:28,422 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-2) Creating Service {http://www.example.org/rasporedcasova/}rasporedcasova from class service.RasporedPortType
+2018-06-13 20:25:28,429 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-8) Creating Service {http://www.example.org/studentska/}studentska from class service.StudentskaPortType
+2018-06-13 20:25:28,432 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-1) Creating Service {http://www.example.org/banka/}banka from class service.Banka
+2018-06-13 20:25:28,443 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-6) Creating Service {http://www.example.org/studentska/}studentska from class service.StudentskaPortType
+2018-06-13 20:25:28,454 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-7) Creating Service {http://www.example.org/rasporedcasova/}rasporedcasova from class service.RasporedPortType
+2018-06-13 20:25:29,502 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-7) Setting the server's publish address to be http://localhost:8080/03RasporedSOAP/RasporedPortType
+2018-06-13 20:25:29,502 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-6) Setting the server's publish address to be http://localhost:8080/SOAPServer/StudentskaPortType
+2018-06-13 20:25:29,502 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-1) Setting the server's publish address to be http://localhost:8080/BankaService/Banka
+2018-06-13 20:25:29,502 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-8) Setting the server's publish address to be http://localhost:8080/WSStudentServiceSec/StudentskaPortType
+2018-06-13 20:25:29,502 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-2) Setting the server's publish address to be http://localhost:8080/RasporedCasovaService/RasporedPortType
+2018-06-13 20:25:29,748 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-1) JBWS024074: WSDL published to: file:/D:/4.Fax/letnji semestar/ProjekatDistribuirane/SOAPNovcanikBanka/server/wildfly-10.1.0.Final/standalone/data/wsdl/BankaServiceEAR.ear/BankaService.war/banka.wsdl
+2018-06-13 20:25:29,749 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-8) JBWS024074: WSDL published to: file:/D:/4.Fax/letnji semestar/ProjekatDistribuirane/SOAPNovcanikBanka/server/wildfly-10.1.0.Final/standalone/data/wsdl/RasporedCasovaServiceEAR.ear/WSStudentServiceSec.war/studentska.wsdl
+2018-06-13 20:25:29,753 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-2) JBWS024074: WSDL published to: file:/D:/4.Fax/letnji semestar/ProjekatDistribuirane/SOAPNovcanikBanka/server/wildfly-10.1.0.Final/standalone/data/wsdl/RasporedCasovaServiceEAR.ear/RasporedCasovaService.war/rasporedcasova.wsdl
+2018-06-13 20:25:29,754 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-7) JBWS024074: WSDL published to: file:/D:/4.Fax/letnji semestar/ProjekatDistribuirane/SOAPNovcanikBanka/server/wildfly-10.1.0.Final/standalone/data/wsdl/RasporedCasovaServiceEAR.ear/03RasporedSOAP.war/rasporedcasova.wsdl
+2018-06-13 20:25:29,760 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-6) JBWS024074: WSDL published to: file:/D:/4.Fax/letnji semestar/ProjekatDistribuirane/SOAPNovcanikBanka/server/wildfly-10.1.0.Final/standalone/data/wsdl/RasporedCasovaServiceEAR.ear/SOAPServer.war/studentska.wsdl
+2018-06-13 20:25:29,853 INFO  [org.jboss.as.webservices] (MSC service thread 1-2) WFLYWS0003: Starting service jboss.ws.endpoint."RasporedCasovaServiceEAR.ear"."RasporedCasovaService.war".RasporedPortType
+2018-06-13 20:25:29,875 INFO  [org.jboss.as.webservices] (MSC service thread 1-1) WFLYWS0003: Starting service jboss.ws.endpoint."RasporedCasovaServiceEAR.ear"."SOAPServer.war".StudentskaPortType
+2018-06-13 20:25:29,870 INFO  [org.jboss.as.webservices] (MSC service thread 1-4) WFLYWS0003: Starting service jboss.ws.endpoint."BankaServiceEAR.ear"."BankaService.war".Banka
+2018-06-13 20:25:29,886 INFO  [org.jboss.as.webservices] (MSC service thread 1-7) WFLYWS0003: Starting service jboss.ws.endpoint."RasporedCasovaServiceEAR.ear"."WSStudentServiceSec.war".StudentskaPortType
+2018-06-13 20:25:29,918 INFO  [org.jboss.as.webservices] (MSC service thread 1-1) WFLYWS0003: Starting service jboss.ws.endpoint."RasporedCasovaServiceEAR.ear"."03RasporedSOAP.war".RasporedPortType
+2018-06-13 20:25:30,112 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: /RasporedCasovaService
+2018-06-13 20:25:30,150 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0021: Registered web context: /BankaService
+2018-06-13 20:25:30,189 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0021: Registered web context: /WSStudentServiceSec
+2018-06-13 20:25:30,287 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: /SOAPServer
+2018-06-13 20:25:30,615 ERROR [org.apache.axis.configuration.EngineConfigurationFactoryServlet] (ServerService Thread Pool -- 69) Unable to find config file.  Creating new servlet engine config file: /WEB-INF/server-config.wsdd
+2018-06-13 20:25:31,063 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0021: Registered web context: /03RasporedSOAP
+2018-06-13 20:25:31,132 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "RasporedCasovaServiceEAR.ear" (runtime-name : "RasporedCasovaServiceEAR.ear")
+2018-06-13 20:25:31,132 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "BankaServiceEAR.ear" (runtime-name : "BankaServiceEAR.ear")
+2018-06-13 20:25:31,418 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-06-13 20:25:31,421 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-06-13 20:25:31,422 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 22753ms - Started 927 of 1225 services (486 services are lazy, passive or on-demand)
+2018-06-13 20:30:27,217 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0022: Unregistered web context: /BankaService
+2018-06-13 20:30:27,217 INFO  [org.jboss.as.webservices] (MSC service thread 1-2) WFLYWS0004: Stopping service jboss.ws.endpoint."BankaServiceEAR.ear"."BankaService.war".Banka
+2018-06-13 20:30:27,349 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0208: Stopped subdeployment (runtime-name: BankaService.war) in 180ms
+2018-06-13 20:30:27,353 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment BankaServiceEAR.ear (runtime-name: BankaServiceEAR.ear) in 185ms
+2018-06-13 20:30:27,356 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "BankaServiceEAR.ear" (runtime-name: "BankaServiceEAR.ear")
+2018-06-13 20:30:27,364 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "BankaService.war")
+2018-06-13 20:30:27,365 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "NovcanikService.war")
+2018-06-13 20:30:27,552 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-8) JBWS024061: Adding service endpoint metadata: id=Novcanik
+ address=http://localhost:8080/NovcanikService/Novcanik
+ implementor=service.impl.NovcanikImpl
+ serviceName={http://www.example.org/novcanik/}novcanik
+ portName={http://www.example.org/novcanik/}NovcanikImplPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2018-06-13 20:30:27,552 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-4) JBWS024061: Adding service endpoint metadata: id=Banka
+ address=http://localhost:8080/BankaService/Banka
+ implementor=service.impl.BankaImpl
+ serviceName={http://www.example.org/banka/}banka
+ portName={http://www.example.org/banka/}BankaImplPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2018-06-13 20:30:27,599 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-8) Creating Service {http://www.example.org/novcanik/}novcanik from class service.Novcanik
+2018-06-13 20:30:27,599 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-4) Creating Service {http://www.example.org/banka/}banka from class service.Banka
+2018-06-13 20:30:27,677 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-8) Setting the server's publish address to be http://localhost:8080/NovcanikService/Novcanik
+2018-06-13 20:30:27,692 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-4) Setting the server's publish address to be http://localhost:8080/BankaService/Banka
+2018-06-13 20:30:27,724 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-8) JBWS024074: WSDL published to: file:/D:/4.Fax/letnji semestar/ProjekatDistribuirane/SOAPNovcanikBanka/server/wildfly-10.1.0.Final/standalone/data/wsdl/BankaServiceEAR.ear/NovcanikService.war/novcanik.wsdl
+2018-06-13 20:30:27,903 INFO  [org.jboss.as.webservices] (MSC service thread 1-5) WFLYWS0003: Starting service jboss.ws.endpoint."BankaServiceEAR.ear"."NovcanikService.war".Novcanik
+2018-06-13 20:30:27,903 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-4) JBWS024074: WSDL published to: file:/D:/4.Fax/letnji semestar/ProjekatDistribuirane/SOAPNovcanikBanka/server/wildfly-10.1.0.Final/standalone/data/wsdl/BankaServiceEAR.ear/BankaService.war/banka.wsdl
+2018-06-13 20:30:28,169 INFO  [org.jboss.as.webservices] (MSC service thread 1-4) WFLYWS0003: Starting service jboss.ws.endpoint."BankaServiceEAR.ear"."BankaService.war".Banka
+2018-06-13 20:30:28,200 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0021: Registered web context: /NovcanikService
+2018-06-13 20:30:28,216 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0021: Registered web context: /BankaService
+2018-06-13 20:30:28,379 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "BankaServiceEAR.ear" with deployment "BankaServiceEAR.ear"
