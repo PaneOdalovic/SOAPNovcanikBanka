@@ -3161,3 +3161,5 @@ resources
 2018-06-14 19:28:14,775 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment NovcanikBankaREST.war
 2018-06-14 19:28:14,969 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 353) RESTEASY002225: Deploying javax.ws.rs.core.Application: class rest.RestApplication
 2018-06-14 19:28:14,969 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 353) WFLYUT0021: Registered web context: /NovcanikBankaREST
+2018-06-14 19:28:14,981 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "NovcanikBankaREST.war" (runtime-name : "NovcanikBankaREST.war")
+2018-06-14 19:28:20,080 INFO  [stdout] (default task-62) Ulogovani je : ,password: 
